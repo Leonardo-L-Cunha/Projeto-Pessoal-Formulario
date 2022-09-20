@@ -1,0 +1,123 @@
+:root{
+    --color-text: #fff;
+}
+
+
+body{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--color-text);
+   
+}
+.fundo-img{
+    background-image: url(./palm-trees-sky.jpeg);
+}
+.cor-fundo{
+    background-color:#292847d9;
+    
+}
+.corpo{
+    font-size: 40px;
+    text-align: center;
+}
+.corpo2{
+    text-align: center;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
+    background-color: #292847;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 22.5px;
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.card-main label{
+    margin: 0 45px;
+    margin-top: 35px;
+
+}
+.card-main input{
+    width: 631px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.opcao {
+    width: 631px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.card-2{
+    margin: 0 45px;
+    display: flex;
+    flex-direction: column;
+}
+.card-2 input{
+   margin-top: 10px;
+}
+
+.card-2 label{
+
+}
+
+.opcao2{
+    margin: 10px 0 10px 45px;
+    
+}
+.opcao2 label{
+    
+}
+.opcao2 select{
+    width: 631px;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+
+.opcao2 option {
+    
+}
+
+.opcao3{
+    margin-left: 45px;
+    margin-top: 14px;
+}
+.opcao3 h1{
+    font-size: 20px;
+    line-height: 22.5px;
+}
+
+.opcao4{
+margin-top: 20px;
+}
+.opcao4 label{
+    
+}
+
+.opcao4 textarea {
+    margin-top: 10px;
+    width: 632px;
+    height: 117px;
+}
+
+.botao{
+    margin: 20px 0;
+    display: block;
+    width: 640px;
+    height: 44px;
+    color: var(--color-text);
+    background-color: #37af65;
+    border-radius: 5px;
+}
